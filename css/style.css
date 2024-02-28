@@ -1,0 +1,129 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos de la barra de navegación */
+header {
+  background-color: #000000;
+  /* padding: 20px 0; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffcd03;
+  font-size: 1.2rem;
+}
+
+main {
+  /* background: rgb(250, 174, 9);
+  background: radial-gradient(
+    circle,
+    rgba(250, 174, 9, 1) 50%,
+    rgba(0, 0, 0, 1) 95%
+  ); */
+  color: black;
+  background-image: url(/media/background.webp);
+  color: #ffcd03;
+}
+
+/* Estilos del héroe */
+.hero {
+  background-size: cover;
+
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn-contacto {
+  background-color: #ffcd03;
+  color: #000000;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-contacto:hover {
+  background-color: #ffcd03;
+}
+
+/* Estilos de los servicios */
+.servicios {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.servicios h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.servicios ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.servicios ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.servicios ul li:last-child {
+  margin-right: 0;
+}
+
+.servicios p {
+  font-size: 2rem;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
